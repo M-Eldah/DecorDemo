@@ -1,0 +1,20 @@
+.photogrid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 300px;
+
+}
+
+.photo {
+    background-size: 110% 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (min-width:600px) {
+    .photoTall {
+        background-size: auto 110%;
+        grid-row: span 2/auto;
+    }
+}

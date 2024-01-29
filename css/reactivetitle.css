@@ -1,0 +1,242 @@
+.HeroTitle {
+    font-family: "Playfair Display", serif;
+    top: 50px;
+    left: 50px;
+    position: absolute;
+    z-index: 20;
+    font-size: 82px;
+    color: rgb(255, 248, 210);
+    text-shadow: 5px 5px 8px #00000082;
+}
+
+@media only screen and (max-width:810px) {
+    .HeroTitle {
+        top: 50px;
+        left: 10px;
+        position: absolute;
+        z-index: 20;
+        font-size: 62px;
+        color: rgb(255, 247, 205);
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .HeroTitle {
+        top: 50px;
+        left: 10px;
+        position: absolute;
+        z-index: 20;
+        font-size: 42px;
+        color: rgb(255, 247, 205);
+    }
+}
+
+@media only screen and (max-height:400px) {
+    .HeroTitle {
+        top: 60px;
+        left: 10px;
+        position: absolute;
+        z-index: 20;
+        font-size: 42px;
+        color: rgb(255, 247, 205);
+    }
+}
+
+.subtitle {
+    top: 150px;
+    left: 50px;
+    position: absolute;
+    z-index: 20;
+    font-size: 42px;
+    color: aliceblue;
+}
+
+@media only screen and (max-width:810px) {
+    .subtitle {
+        top: 120px;
+        left: 10px;
+        position: absolute;
+        z-index: 20;
+        font-size: 23px;
+        color: aliceblue;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .subtitle {
+        top: 150px;
+        left: 10px;
+        position: absolute;
+        z-index: 20;
+        font-size: 23px;
+        color: aliceblue;
+    }
+}
+
+@media only screen and (max-height:400px) {
+    .subtitle {
+        top: 120px;
+        left: 10px;
+        position: absolute;
+        z-index: 20;
+        font-size: 23px;
+        color: aliceblue;
+    }
+}
+
+.HeroTitlem {
+    font-family: "Playfair Display", serif;
+    z-index: 20;
+    font-size: 102px;
+    color: rgb(255, 248, 210);
+    text-shadow: 5px 5px 8px #00000082;
+}
+
+@media only screen and (max-width:810px) {
+    .HeroTitlem {
+        top: 5px;
+        left: 10px;
+        position: relative;
+        z-index: 20;
+        font-size: 62px;
+        color: rgb(255, 247, 205);
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .HeroTitlem {
+        top: 5px;
+        left: 10px;
+        position: relative;
+        z-index: 20;
+        font-size: 42px;
+        color: rgb(255, 247, 205);
+    }
+}
+
+@media only screen and (max-height:400px) {
+    .HeroTitlem {
+        top: 5px;
+        left: 10px;
+        position: relative;
+        z-index: 20;
+        font-size: 42px;
+        color: rgb(255, 247, 205);
+    }
+}
+
+.subtitlem {
+    z-index: 20;
+    font-size: 42px;
+    color: aliceblue;
+}
+
+@media only screen and (max-width:810px) {
+    .subtitlem {
+        left: 10px;
+        position: relative;
+        z-index: 20;
+        font-size: 23px;
+        color: aliceblue;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .subtitlem {
+        left: 10px;
+        position: relative;
+        z-index: 20;
+        font-size: 23px;
+        color: aliceblue;
+    }
+}
+
+@media only screen and (max-height:400px) {
+    .subtitlem {
+        left: 10px;
+        position: relative;
+        z-index: 20;
+        font-size: 23px;
+        color: aliceblue;
+    }
+}
+
+.textclip {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.textclipText {
+    font-size: 130px;
+    font-weight: bolder;
+    top: 0px;
+}
+
+@media only screen and (max-width:1368px) {
+    .textclipText {
+        font-size: 82px;
+        color: rgb(255, 247, 205);
+    }
+}
+
+@media only screen and (max-width:932px) {
+    .textclipText {
+        font-size: 62px;
+        color: rgb(255, 247, 205);
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .textclipText {
+        font-size: 52px;
+        color: rgb(255, 247, 205);
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .textclipText {
+        z-index: 20;
+        font-size: 42px;
+        color: rgb(255, 247, 205);
+    }
+}
+
+.textclipTextSubtitle {
+    font-size: 80px;
+    font-weight: bolder;
+
+    top: 0px;
+}
+
+@media only screen and (max-width:1368px) {
+    .textclipTextSubtitle {
+        font-size: 52px;
+        color: rgb(255, 247, 205);
+    }
+}
+
+@media only screen and (max-width:932px) {
+    .textclipTextSubtitle {
+        font-size: 42px;
+        color: rgb(255, 247, 205);
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .textclipTextSubtitle {
+        font-size: 32px;
+        color: rgb(255, 247, 205);
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .textclipTextSubtitle {
+        z-index: 20;
+        font-size: 22px;
+        color: rgb(255, 247, 205);
+    }
+}

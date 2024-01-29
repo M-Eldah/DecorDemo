@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+body {
+  color: aliceblue;
+  background-color: #121420;
+}
+
+.carouselImg {
+  height: 92vb;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-img-top {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.bottomGradient {
+  background: linear-gradient(to top, #121420 0%, RGB(18, 20, 32, 0.95) 10%, RGB(18, 20, 32, 0.5) 50%, rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  z-index: 10;
+}
+
+.topGradient {
+  background: linear-gradient(to bottom, #121420 0%, RGB(18, 20, 32, 0.95) 10%, RGB(18, 20, 32, 0.5) 50%, rgba(0, 0, 0, 0));
+  position: absolute;
+  top: -2px;
+  width: 100%;
+  z-index: 10;
+}
+
+section:first-child {
+  z-index: 20;
+}
+
+/*Navbar*/
+.navText {
+  padding: 5px;
+  color: rgb(255, 205, 39);
+}
+
+/*Card*/
+.cardimgType {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px;
+  padding: 10px 0px;
+  border-radius: 15px;
+  width: 18rem;
+  height: 500px;
+}
+.cardimgType .card-img-top {
+  border-radius: 15px;
+  height: 100%;
+}
+
+.contentBackgroundImg {
+  position: relative;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.contentBackground {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.6470588235);
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.backgroundimg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -1;
+  padding: 0px;
+}
+
+.nav-link {
+  color: aliceblue !important;
+}
+
+.card-body {
+  position: absolute;
+  bottom: 10px;
+  padding: 8px;
+  padding-top: 20px;
+  color: aliceblue;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7294117647) 90%, rgba(0, 0, 0, 0));
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.ContentContainer {
+  margin-top: 100px;
+}
+.ContentContainer div div {
+  padding: 0px;
+}
+
+.secondary {
+  background-color: #1f2238;
+}
+
+/*Accordion*/
+.accordionface {
+  background-color: transparent;
+  color: aliceblue;
+}
+
+.carousel-caption {
+  z-index: 15;
+}
+
+.information {
+  border-style: solid;
+  border-color: aliceblue;
+  border-width: 5px;
+  border-top: 0px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+.information h5 {
+  margin-bottom: 30px;
+}
+
+.infromationMedia {
+  width: 100%;
+  height: 500px;
+  max-height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.informationContainer {
+  width: 18rem;
+}
+.informationContainer i {
+  margin-bottom: 30px;
+}
+.informationContainer h5 {
+  margin-bottom: 30px;
+}
+
+.contactForm {
+  width: 80%;
+  font-size: 22px;
+}
+.contactForm textarea {
+  font-size: 20px;
+}
+.contactForm input {
+  font-size: 20px;
+  width: 400px;
+  max-width: 80%;
+}
+.contactForm Button {
+  font-size: 20px;
+  width: 200px;
+  border: #31365c 2px solid;
+  background-color: #31365c;
+  color: aliceblue;
+  font-weight: 700;
+}
+.contactForm Button:hover {
+  font-size: 20px;
+  width: 200px;
+  border: #31365c 2px solid;
+  background-color: #31365c;
+  color: aliceblue;
+}
+
+.gallerybutton {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  overflow: scroll;
+  overflow-y: hidden;
+  max-width: 90vw;
+}
+.gallerybutton button {
+  width: 100px;
+  margin: 10px;
+  margin: 10px;
+}
+.gallerybutton .gallerybuttonActive {
+  border-color: #1f2238;
+  background-color: #1f2238;
+  color: aliceblue;
+}
+.gallerybutton .gallerybuttoninActive {
+  border-color: #31365c;
+  color: #31365c;
+}
+.gallerybutton .gallerybuttoninActive:hover {
+  border-color: #1f2238;
+  background-color: #1f2238;
+  color: aliceblue;
+}
+
+.gallerybutton::-webkit-scrollbar {
+  width: 2px; /* Remove scrollbar space */
+  background: #1f2238; /* Optional: just make scrollbar invisible */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #31365c;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+  .gallerybutton::-webkit-scrollbar {
+    width: 0px; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+  }
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 10px;
+  }
+}
+.PersonalImage {
+  border-radius: 100%;
+  width: 500px;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media only screen and (max-width: 990px) {
+  .PersonalImage {
+    border-radius: 100%;
+    width: 350px;
+    height: 350px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .PersonalImage {
+    padding: 10px 10px;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+.galleryreelWrapper {
+  padding: 0px 10px;
+  width: 100%;
+  height: 180px;
+  position: absolute;
+  bottom: 0px;
+}
+
+@media only screen and (max-width: 974px) {
+  .galleryreelWrapper {
+    padding: 0px 10px;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    position: relative;
+    bottom: 0px;
+  }
+}
+.galleryReel {
+  overflow-x: scroll;
+  height: 180px;
+}
+.galleryReel img {
+  padding: 5px;
+  height: 150px;
+  width: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+::-webkit-scrollbar {
+  width: 2px; /* Remove scrollbar space */
+  background: #1f2238; /* Optional: just make scrollbar invisible */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #31365c;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+  .galleryReel {
+    overflow-x: scroll;
+    height: 120px;
+  }
+  .galleryReel img {
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+.btn-check + .btn {
+  border: #31365c 2px solid;
+  color: #31365c;
+  font-weight: 700;
+}
+
+.btn-check + .btn:hover {
+  border: #434a7d 2px solid;
+  color: #434a7d;
+  font-weight: 700;
+}
+
+.btn-check:checked + .btn {
+  border: #31365c 2px solid;
+  background-color: #31365c;
+  color: aliceblue;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
