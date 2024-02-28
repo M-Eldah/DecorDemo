@@ -80,12 +80,7 @@ window.onload = () => {
 
     document.getElementById('contact-form').addEventListener('submit', function (event) {
         event.preventDefault();
-        emailjs.sendForm('service_8bdx0jd', 'template_zgp07io', this)
-            .then(function () {
-                console.log('SUCCESS!');
-            }, function (error) {
-                console.log('FAILED...', error);
-            });
+        console.log("Sending contact form data")
     });
 }
 function scrolls(i) {
